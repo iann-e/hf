@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+:root {
+  --dark-blue: #0c5177;
+  --red: #d46a43;
+  --black: #302b24;
+  --fw-black: 900;
+  --fw-bold: 700;
+  --fw-regular: 400;
+  --fw-light: 300;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: var(--black);
+}
+
+.button {
+  font-weight: 900;
+  font-size: 13px;
+  border-color: var(--red);
+  border-width: 2px;
+  color: var(--red);
+  box-sizing: border-box;
+  height: 40px;
+
+  &:hover {
+    background-color: var(--dark-blue);
+    border-color: var(--dark-blue);
+    color: #fff;
+  }
+
+  &.button-primary {
+    background-color: var(--red);
+    border: var(--red);
+    border-width: 2px;
+    line-height: 40px;
+    &:hover {
+      background-color: var(--dark-blue);
+    }
+  }
+
+  &.button-small {
+    font-size: 10px;
+    height: 28px;
+    line-height: 1;
+    display: inline-block;
+    padding: 0 16px;
+    border-color: var(--dark-blue);
+    color: var(--dark-blue);
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  &.button-primary.button-small {
+    background-color: var(--dark-blue);
+    color: #fff;
+
+    &:hover {
+      background-color: var(--red);
+    }
+  }
+}
+
+.section-title {
+  margin-bottom: 8px;
+  font-size: 3rem;
+}
+
+.text-center {
+  text-align: center;
+}
+.img-full {
+  width: 100%;
+}
+
+.bg-dark-blue {
+  background-color: var(--dark-blue);
+}
+
+.bg-cream {
+  background-color: #f9f0dc;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  letter-spacing: 0;
+}
