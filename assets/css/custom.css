@@ -311,6 +311,12 @@ body.scrolled .navbar {
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  .gadget-screen .g-main-screen {
+    padding: 20px;
+  }
+}
+
 .gadget-screen .calculate-wrap {
   display: -webkit-box;
   display: -ms-flexbox;

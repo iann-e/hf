@@ -194,6 +194,12 @@ body.scrolled {
     }
   }
 
+  @media (max-width: 768px) {
+    .g-main-screen {
+      padding: 20px;
+    }
+  }
+
   .calculate-wrap {
     display: flex;
     gap: 40px;
