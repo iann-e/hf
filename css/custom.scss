@@ -153,6 +153,12 @@ body.scrolled {
     font-size: 25px;
     font-weight: 300;
   }
+
+  @media (max-width: 767px) {
+    .container {
+      width: 95%;
+    }
+  }
 }
 
 .gadget-screen {

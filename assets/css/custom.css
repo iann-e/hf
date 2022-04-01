@@ -269,6 +269,12 @@ body.scrolled .navbar {
   font-weight: 300;
 }
 
+@media (max-width: 767px) {
+  .banner .container {
+    width: 95%;
+  }
+}
+
 .gadget-screen {
   -webkit-box-shadow: 1px 1px 10px rgba(153, 153, 153, 0.5);
           box-shadow: 1px 1px 10px rgba(153, 153, 153, 0.5);
