@@ -127,6 +127,22 @@ body.scrolled {
   }
 }
 
+@media (max-width: 820px) {
+  .navbar-brand.three.columns {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-links.nine {
+    width: 100%;
+    margin-left: 0;
+  }
+  .navbar-list .navbar-item {
+    flex-grow: 1;
+    text-align: center;
+  }
+}
+
 .section {
   padding: 70px 0;
 }
