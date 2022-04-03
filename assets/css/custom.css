@@ -794,5 +794,8 @@ body.scrolled .navbar {
   .navbar-list {
     gap: 10px;
   }
+  .navbar-list .navbar-link {
+    font-size: 14px;
+  }
 }
 /*# sourceMappingURL=custom.css.map */
