@@ -782,5 +782,17 @@ body.scrolled .navbar {
   .pricing .pricing-item:last-child {
     margin-bottom: 0;
   }
+  .section-cta .container .six.columns {
+    width: 100%;
+  }
+  .navbar:after {
+    width: 100%;
+  }
+}
+
+@media (max-width: 520px) {
+  .navbar-list {
+    gap: 10px;
+  }
 }
 /*# sourceMappingURL=custom.css.map */
