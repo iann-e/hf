@@ -30,13 +30,27 @@ body {
     color: #fff;
   }
 
-  &.button-primary {
+  &.button-primary, &.button-primary-rounded,  &.button-primary-light {
     background-color: var(--red);
     border: var(--red);
     border-width: 2px;
     line-height: 40px;
     &:hover {
       background-color: var(--dark-blue);
+    }
+  }
+
+  &.button-primary-rounded{
+    border-radius: 50px;
+    color: #fff;
+  }
+
+  &.button-primary-light{
+    background-color: #e1f4f3;
+    color: var(--dark-blue);
+
+    &:hover{
+      color: #fff;
     }
   }
 

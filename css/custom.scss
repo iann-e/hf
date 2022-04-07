@@ -523,6 +523,15 @@ body.scrolled {
   background-color: var(--dark-blue);
   padding: 60px 0;
 
+  .container{
+    display: flex;
+    justify-content: space-between;
+    
+      & > * {
+        flex-grow: 1;
+      }
+  }
+
   p {
     color: #fff;
   }
@@ -539,6 +548,16 @@ body.scrolled {
       color: #fff;
       text-decoration: none;
     }
+  }
+}
+
+@media (max-width: 550px) {
+  .main-footer .container{
+    display: block;
+  }
+
+  .main-footer .email p{
+    justify-content: start;
   }
 }
 
@@ -596,5 +615,8 @@ body.scrolled {
   }
   .navbar-list .navbar-link {
     font-size: 14px;
+  }
+  .gadget-screen .calculate-wrap {
+    gap: 20px;
   }
 }
