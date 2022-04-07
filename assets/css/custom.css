@@ -483,7 +483,6 @@ body.scrolled .navbar {
 }
 
 .gadget-screen .new-stay {
-  width: 50%;
   text-align: center;
   padding: 20px 0 0;
 }
@@ -573,7 +572,7 @@ body.scrolled .navbar {
   .gadget-screen .graph-items .graph-item {
     width: 100%;
   }
-  .gadget-screen .g-main-screen .g-main-scree-title {
+  .gadget-screen .g-main-screen .g-main-scree-title, .gadget-screen .g-main-screen .new-stay {
     width: 50%;
   }
 }
@@ -728,6 +727,12 @@ body.scrolled .navbar {
 
 .pricing-primary-action {
   margin-top: 50px;
+}
+
+@media (max-width: 1000px) {
+  .pricing .pricing-item .pricing-header .pricing-title {
+    font-size: 2.6rem;
+  }
 }
 
 .main-footer {

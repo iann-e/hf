@@ -316,7 +316,6 @@ body.scrolled {
   }
 
   .new-stay {
-    width: 50%;
     text-align: center;
     padding: 20px 0 0;
   }
@@ -387,10 +386,12 @@ body.scrolled {
       }
     }
     .g-main-screen {
-      .g-main-scree-title {
+      .g-main-scree-title, .new-stay {
         width: 50%;
       }
     }
+
+    
   }
 }
 
@@ -524,6 +525,12 @@ body.scrolled {
 
   &-primary-action {
     margin-top: 50px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .pricing .pricing-item .pricing-header .pricing-title{
+    font-size: 2.6rem;
   }
 }
 
