@@ -554,6 +554,7 @@ body.scrolled {
 
   p {
     color: #fff;
+    margin-bottom: 0;
   }
 
   .email p {
@@ -572,12 +573,14 @@ body.scrolled {
 }
 
 @media (max-width: 550px) {
-  .main-footer .container{
-    display: block;
-  }
 
   .main-footer .email p{
-    justify-content: start;
+    gap: 5px;
+    
+  }
+
+  .main-footer p{
+    font-size: 12px;
   }
 }
 
