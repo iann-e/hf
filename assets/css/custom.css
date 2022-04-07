@@ -793,9 +793,6 @@ body.scrolled .navbar {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: baseline;
-        -ms-flex-align: baseline;
-            align-items: baseline;
   }
   .main-footer p {
     font-size: 12px;
