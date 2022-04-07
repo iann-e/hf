@@ -576,6 +576,8 @@ body.scrolled {
 
   .main-footer .email p{
     gap: 5px;
+    flex-direction: column;
+    align-items: baseline;
     
   }
 
