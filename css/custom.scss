@@ -96,6 +96,14 @@ body.scrolled {
 
 .button-toggle {
   text-decoration: none;
+
+  svg path{
+    fill: var(--red);
+
+    &:hover{
+      fill: var(--dark-blue)
+    }
+  }
 }
 
 .navbar-buttons-wrap.open {

@@ -225,6 +225,14 @@ body.scrolled .navbar {
   text-decoration: none;
 }
 
+.button-toggle svg path {
+  fill: var(--red);
+}
+
+.button-toggle svg path:hover {
+  fill: var(--dark-blue);
+}
+
 .navbar-buttons-wrap.open {
   display: block;
 }
