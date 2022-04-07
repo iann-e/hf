@@ -697,6 +697,12 @@ body.scrolled .navbar {
   font-weight: 700;
 }
 
+.pricing .pricing-list {
+  list-style: none;
+  list-style-image: url(/images/check-lg.svg);
+  margin-left: 24px;
+}
+
 .pricing .pricing-item {
   border-radius: 20px;
   -webkit-box-shadow: 1px 1px 10px rgba(153, 153, 153, 0.5);
